@@ -1,0 +1,35 @@
+CCSDS_OPM_VERS = 2.0
+CREATION_DATE = 2016-07-14
+ORIGINATOR = Astrogator MSC
+
+COMMENT The CCSDS standard allows all low-case or all upper-case comments.
+COMMENT Our parser takes mixed-case fine, but watch out with other tools.
+COMMENT Beginning of Segment. Heloicentric, Cartesian.
+OBJECT_NAME = APOPHIS
+OBJECT_ID = 99942
+CENTER_NAME = Sun
+REF_FRAME = ICRF
+TIME_SYSTEM = UTC
+EPOCH = 2007-01-01T00:00:00.000Z
+X = -1.5609184225676158e+008 [km]
+Y =  4.6756533876020692e+007 [km]
+Z =  1.3386155671177438e+007 [km]
+X_DOT =  -6.4252312640892519 [km/sec]
+Y_DOT = -23.2875986645074350 [km/sec]
+Z_DOT =  -8.8285114292893443 [km/sec]
+
+COMMENT Keplerian elements. GM not available.
+SEMI_MAJOR_AXIS = 1.3796595723019776e+008 [km]
+ECCENTRICITY = 0.1910749294531534
+INCLINATION = 20.45088464943712 [deg]
+RA_OF_ASC_NODE = 356.0513479710517 [deg]
+ARG_OF_PERICENTER = 334.5144967681272 [deg]
+TRUE_ANOMALY = 191.9333705281419 [deg]
+GM = 1 [km**3/s**2]
+
+COMMENT Spacecraft section only has Solar radiation pressure area.
+MASS = 1 [kg]
+SOLAR_RAD_AREA = 80424.8 [m**2]
+SOLAR_RAD_COEFF = 1.00000
+DRAG_AREA = 1.0    [m**2]
+DRAG_COEFF = 2.2
