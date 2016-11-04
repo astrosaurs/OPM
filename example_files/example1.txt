@@ -1,0 +1,21 @@
+CCSDS_OPM_VERS = 2.0
+CREATION_DATE = 2016-09-30
+ORIGINATOR = B612
+COMMENT Geocentric, Cartesian
+OBJECT_NAME = AvAstSat
+OBJECT_ID = 2020-999Z
+CENTER_NAME = Earth
+REF_FRAME = ICRF
+TIME_SYSTEM = UTC
+EPOCH = 2016-09-30T00:00:00.000Z
+X = 7000 [km]
+Y =  0.0 [km]
+Z = 0.0 [km]
+X_DOT =   0.0 [km/sec]
+Y_DOT = 8.0 [km/sec]
+Z_DOT =   0.0 [km/sec]
+MASS = 1 [kg]
+SOLAR_RAD_AREA = 1    [m**2]
+SOLAR_RAD_COEFF = 1.500000
+DRAG_AREA = 1.0    [m**2]
+DRAG_COEFF = 0.0
