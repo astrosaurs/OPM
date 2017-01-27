@@ -6,14 +6,12 @@
     -----------------Inputs------------------
     None (for now) - customize inputs in script
     -----------------Outputs-----------------
-    Three TLE files for each operational satellite:
     OPM format file
     ------------
     """
 
 # Custom Inputs
-#filename = "Helio_Test Initial State.txt"
-filename = "2009 Perigee.txt"
+filename = "Helio_Test Initial State.txt"
 param_set_type = 'Cartesian'    # use cartesian coordinate system (can only handle this currently)
 originator = "B612-jcarrico"
 object_name = "AvAstSat"
